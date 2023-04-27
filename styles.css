@@ -15,9 +15,41 @@ h2{
 } */
 
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Libre+Baskerville:ital@1&display=swap');
-
-
+:root{
+    --primary-color:red;
+}
 h1{
     font-family: 'Instrument Serif', serif;
     font-family: 'Libre Baskerville', serif;
+}
+/* /* 
+container */
+.container{
+    /* padding-left: 1 rem;
+    padding-right: 1 rem; */
+    padding:0rem 1rem
+}
+.container-center{
+      max-width : 600px;
+      margin:auto;
+}
+.container-fluid{
+    max-width : 600px;
+      margin:auto;
+
+}
+/* links */
+.link{
+    text-decoration:none;
+    padding:0.5rem 1 rem;
+}
+.link-primary{
+  background-color:var(--primary-color);
+  border-radius:0.5rem;
+  color:white;
+}
+.link-secondary{
+   color:var(--primary-color);
+   border-radius:0.5rem;
+   border:1px solid var(--primary-color)
 }
