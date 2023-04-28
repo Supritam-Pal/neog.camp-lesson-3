@@ -101,12 +101,35 @@ hr{
  }
  .hero .hero-heading{
     padding-top:1rem;
+    text-align:center;
     color: var(--dark-grey);
  }
  .hero .hero-heading 
  .heading-inverted{
     color:blueviolet;
  }
+ /* section */
+ .section  h1{
+text-align:center;
+padding:2rem;
+ }
+ .ow{
+    background-color:#008000
+ }
+/* footers */
+.footer{
+    background-color:var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
 
+}
+.footer .link{
+    color:white;
+}
+.footer ul{
+    padding-inline-start:0px;
+}
 
 
