@@ -1,4 +1,4 @@
-/* body{
+ body{
     color:red
 }
 h1{
@@ -12,11 +12,12 @@ h2{
 }
 .para{
     color:aqua
-} */
+} 
 
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Libre+Baskerville:ital@1&display=swap');
 :root{
-    --primary-color:red;
+    --primary-color:
+    #9d174d;
 }
 h1{
     font-family: 'Instrument Serif', serif;
@@ -24,15 +25,15 @@ h1{
 }
 /* /* 
 container */
-.container{
-    /* padding-left: 1 rem;
-    padding-right: 1 rem; */
-    padding:0rem 1rem
-}
 .container-center{
+     /* padding-left: 1 rem;
+    padding-right: 1 rem;  */
+    padding:0rem 1rem;
+}
+
       max-width : 600px;
       margin:auto;
-}
+
 .container-fluid{
     max-width : 600px;
       margin:auto;
@@ -56,3 +57,36 @@ container */
 hr{
     margin:2rem 0rem
 }
+/* lists */
+.non-bullet{
+    list-style:none;
+}
+.list-item-inline{
+    display:inline;
+    padding:0rem 0.5rem;
+}
+/* nav */
+.navigation{
+    background-color:var(--primary-color);
+    color:white;
+    padding:1rem;
+    border-bottom-left-radius:1rem;
+}
+/* .nav pills{
+    color:white;
+} */
+.navigation .nav-pills{
+    text-align:right;
+}
+.navigation .nav-brand{
+    font-weight:bold;
+
+}
+.navigation .link{
+    color: white;
+}
+.navigation .link-active{
+    font-weight:bold;
+}
+
+
